@@ -1,29 +1,29 @@
 // SITE CONFIG
 export const NEXT_PUBLIC_SITE_NAME =
-  process.env.NEXT_PUBLIC_SITE_NAME || "reelnn";
+  process.env.NEXT_PUBLIC_SITE_NAME || "FilmiFlex";
 
 export const NEXT_PUBLIC_FOOTER_DESC =
   process.env.NEXT_PUBLIC_FOOTER_DESC ||
-  "This website does not host any files on its own servers; it simply provides links to media files stored in telegram.";
+  "© 2025 FilmiFlex – Watch movies and series online for free, anytime, anywhere.";
 
 export const NEXT_PUBLIC_TELEGRAM_CONTACT =
-  process.env.NEXT_PUBLIC_FOOTER_COPYRIGHT || "https://t.me/reelnnUpdates";
+  process.env.NEXT_PUBLIC_FOOTER_COPYRIGHT || "https://t.me/filmiidunia";
 
 export const NEXT_PUBLIC_WHATSAPP_CONTACT =
-  process.env.NEXT_PUBLIC_WHATSAPP_CONTACT || "";
+  process.env.NEXT_PUBLIC_WHATSAPP_CONTACT || "+447375237255";
 
 export const NEXT_PUBLIC_INSTAGRAM_CONTACT =
   process.env.NEXT_PUBLIC_INSTAGRAM_CONTACT || "";
 
-export const SITE_SECRET = process.env.SITE_SECRET || "your_secret_key";
+export const SITE_SECRET = process.env.SITE_SECRET || "s3cUr3K3y9X2aLp8Vb7MzWq4Rt0nCfYe";
 
 // Backend API
-export const BACKEND_URL = process.env.BACKEND_URL || "http://0.0.0.0:6519";
+export const BACKEND_URL = process.env.BACKEND_URL || "https://filimiflex-e00fb4878732.herokuapp.com";
 
 
 // Telegram
 export const NEXT_PUBLIC_TELEGRAM_BOT_NAME =
-  process.env.NEXT_PUBLIC_TELEGRAM_BOT_NAME || "reelnnbot";
+  process.env.NEXT_PUBLIC_TELEGRAM_BOT_NAME || "movieprovider19_bot";
 
 
 // Shortener API
