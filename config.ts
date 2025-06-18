@@ -4,7 +4,7 @@ export const NEXT_PUBLIC_SITE_NAME =
 
 export const NEXT_PUBLIC_FOOTER_DESC =
   process.env.NEXT_PUBLIC_FOOTER_DESC ||
-  "© 2025 FilmiFlex – Watch movies and series online for free, anytime, anywhere.";
+  "Watch movies and series online for free, anytime, anywhere.";
 
 export const NEXT_PUBLIC_TELEGRAM_CONTACT =
   process.env.NEXT_PUBLIC_FOOTER_COPYRIGHT || "https://t.me/filmiidunia";
