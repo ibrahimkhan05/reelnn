@@ -1,34 +1,34 @@
+
 // SITE CONFIG
 export const NEXT_PUBLIC_SITE_NAME =
-  process.env.NEXT_PUBLIC_SITE_NAME || "reelnn";
+  process.env.NEXT_PUBLIC_SITE_NAME || "FilmiFlex";
 
 export const NEXT_PUBLIC_FOOTER_DESC =
   process.env.NEXT_PUBLIC_FOOTER_DESC ||
-  "This website does not host any files on its own servers; it simply provides links to media files stored in telegram.";
+  "Watch movies and series online for free, anytime, anywhere without ads";
 
 export const NEXT_PUBLIC_TELEGRAM_CONTACT =
-  process.env.NEXT_PUBLIC_FOOTER_COPYRIGHT || "https://t.me/reelnnUpdates";
+  process.env.NEXT_PUBLIC_FOOTER_COPYRIGHT || "https://t.me/filmiidunia";
 
 export const NEXT_PUBLIC_WHATSAPP_CONTACT =
-  process.env.NEXT_PUBLIC_WHATSAPP_CONTACT || "";
+  process.env.NEXT_PUBLIC_WHATSAPP_CONTACT || "+447375237255";
 
 export const NEXT_PUBLIC_INSTAGRAM_CONTACT =
   process.env.NEXT_PUBLIC_INSTAGRAM_CONTACT || "";
-
-export const SITE_SECRET = process.env.SITE_SECRET || "your_secret_key";
-
 export const ENABLE_AUTH_PROTECTION = process.env.ENABLE_AUTH_PROTECTION === 'true';
 
-export const LOGIN_PAGE_POSTER = process.env.NEXT_PUBLIC_LOGIN_PAGE_POSTER || "";
+export const LOGIN_PAGE_POSTER = process.env.NEXT_PUBLIC_LOGIN_PAGE_POSTER || "https://i.pinimg.com/736x/84/28/00/842800a6b923791c0592232cd0384e9a.jpg";
+
+export const SITE_SECRET = process.env.SITE_SECRET || "s3cUr3K3y9X2aLp8Vb7MzWq4Rt0nCfYe";
 
 // Backend API
-export const BACKEND_URL = process.env.BACKEND_URL || "http://0.0.0.0:6519";
+export const BACKEND_URL = process.env.BACKEND_URL || "https://filimiflex-e00fb4878732.herokuapp.com";
 
 
 // Telegram
 export const NEXT_PUBLIC_TELEGRAM_BOT_NAME =
-  process.env.NEXT_PUBLIC_TELEGRAM_BOT_NAME || "reelnnbot";
-export const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN || '12346578:CJNDSccosadckokco';
+  process.env.NEXT_PUBLIC_TELEGRAM_BOT_NAME || "movieprovider19_bot";
+
 
 // Shortener API
 export const SHORTENER_API_URL = process.env.SHORTENER_API_URL || '';
